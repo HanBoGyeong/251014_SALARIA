@@ -455,7 +455,7 @@ footer .logo {
     background: white;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: start;
     padding-top: 50px;
     gap: 30px;
     margin-right: 0;
@@ -486,14 +486,12 @@ footer .logo {
   }
 
   .navi a::after {
-  content: "\f078"; /* chevron-down 아이콘 (Font Awesome 4 코드) */
-  font-family: FontAwesome;
-  font-size: 18px;
-  color: #24ad59; /* 초록색 화살표 */
-  font-weight: normal; /* Font Awesome은 굵게 하지 않아야 깨지지 않음 */
-  margin-left: 8px; /* 글자와 아이콘 간격 */
-}
-
+    content: "\f078"; /* chevron-down 아이콘 (Font Awesome 4 코드) */
+    font-family: FontAwesome;
+    font-size: 18px;
+    color: #24ad59; /* 초록색 화살표 */
+    font-weight: normal; /* Font Awesome은 굵게 하지 않아야 깨지지 않음 */
+    margin-left: 8px; /* 글자와 아이콘 간격 */
   }
   .hamburger {
     display: flex;
