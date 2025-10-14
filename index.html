@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALARIA</title>
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="salad.css" />
+  </head>
+  <body>
+    <!-- 네비게이션 -->
+    <nav>
+      <div class="menu-overlay" id="menuOverlay"></div>
+      <div class="logo">SALARIA</div>
+      <!-- 햄버거 메뉴 버튼 추가 (nav 안에) -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- navi에 id 추가 -->
+      <ul class="navi" id="navi">
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#menu">MENU</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#event">EVENT</a></li>
+      </ul>
+    </nav>
+
+    <!-- 랜딩 페이지 with Swiper -->
+    <section id="home" class="landing">
+      <div class="swiper mainSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url('salad1.jpg')">
+            <div class="landing-content">
+              <h1>모두의 샐러리아</h1>
+              <p>매일 새로운 맛을 경험하세요</p>
+            </div>
+          </div>
+          <div class="swiper-slide" style="background-image: url('salad2.jpg')">
+            <div class="landing-content">
+              <h1>모두의 샐러리아</h1>
+              <p>매일 새로운 맛을 경험하세요</p>
+            </div>
+          </div>
+          <div
+            class="swiper-slide"
+            style="
+              background-image: url('salad4.jpg');
+              background-position: top center;
+              background-size: cover;
+            "
+          >
+            <div class="landing-content">
+              <h1>모두의 샐러리아</h1>
+              <p>자연이 선물하는 건강한 식사</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- BEST MENU 섹션 -->
+    <section id="menu" class="menu-section">
+      <h2 class="section-title">BEST MENU</h2>
+      <p class="section-subtitle">가장 사랑받는 샐러드를 만나보세요</p>
+
+      <!-- 원형 자동 슬라이더 -->
+      <div class="circular-slider">
+        <div class="slider-container" id="menuSlider">
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Vegetable bulgogl.png" alt="샐러드1" />
+            </div>
+            <div class="item-name">야채 소불고기</div>
+          </div>
+
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Spicy salmon grain rice.png" alt="샐러드2" />
+            </div>
+            <div class="item-name">스파이시 곡물</div>
+          </div>
+
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Soba noodle duck meat.png" alt="샐러드3" />
+            </div>
+            <div class="item-name">메밀훈제</div>
+          </div>
+
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Grilled mushroom Vegetable.png" alt="샐러드4" />
+            </div>
+            <div class="item-name">구운버섯 야채</div>
+          </div>
+
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Salmon  grain rice.png" alt="샐러드5" />
+            </div>
+            <div class="item-name">연어곡물</div>
+          </div>
+
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Beef tarare perilla oil soba.png" alt="샐러드6" />
+            </div>
+            <div class="item-name">육회들기름 메밀면</div>
+          </div>
+
+          <!-- 반복 복제본 -->
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Vegetable bulgogl.png" alt="샐러드1" />
+            </div>
+            <div class="item-name">야채 소불고기</div>
+          </div>
+
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Spicy salmon grain rice.png" alt="샐러드2" />
+            </div>
+            <div class="item-name">스파이시 곡물</div>
+          </div>
+
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Soba noodle duck meat.png" alt="샐러드3" />
+            </div>
+            <div class="item-name">메밀훈제</div>
+          </div>
+
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Grilled mushroom Vegetable.png" alt="샐러드4" />
+            </div>
+            <div class="item-name">구운버섯 야채</div>
+          </div>
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Salmon  grain rice.png" alt="샐러드5" />
+            </div>
+            <div class="item-name">연어 곡물</div>
+          </div>
+          <div class="circular-item">
+            <div class="circle">
+              <img src="Beef tarare perilla oil soba.png" alt="샐러드6" />
+            </div>
+            <div class="item-name">육회들기름 메밀면</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center">
+        <button class="cta-button">전체 메뉴 보기</button>
+      </div>
+    </section>
+
+    <!-- ABOUT 섹션 -->
+    <section id="about" class="menu-section" style="background: #ffffff">
+      <h2 class="section-title">ABOUT US</h2>
+      <p class="section-subtitle">신선한 재료로 매일 만드는 건강한 식사</p>
+
+      <div class="grid-section">
+        <div class="grid-item">
+          <img src="con2.png" alt="브랜드 소개" />
+          <div class="grid-overlay">
+            <div class="overlay-content">
+              <h3>브랜드 소개</h3>
+            </div>
+          </div>
+        </div>
+        <div class="grid-item">
+          <img src="con3.png" alt="브랜드 히스토리" />
+          <div class="grid-overlay">
+            <div class="overlay-content">
+              <h3>브랜드 히스토리</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EVENT 섹션 -->
+    <section id="event" class="event-section">
+      <h2 class="section-title">EVENT</h2>
+      <p class="section-subtitle">다양한 이벤트와 프로모션을 확인하세요</p>
+
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="event1.png" alt="이벤트 1" />
+          <div class="gallery-overlay">
+            <h4>신규 고객 5,000원 할인</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="event2.jpg" alt="이벤트 2" />
+          <div class="gallery-overlay">
+            <h4>세트 메뉴 특가</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="event3.png" alt="이벤트 3" />
+          <div class="gallery-overlay">
+            <h4>새로운 다이어트 시리즈</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="event4.png" alt="이벤트 4" />
+          <div class="gallery-overlay">
+            <h4>구독 서비스 출시</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="event5.jpg" alt="이벤트 5" />
+          <div class="gallery-overlay">
+            <h4>시즌 한정 메뉴</h4>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="event6.jpg" alt="이벤트 6" />
+          <div class="gallery-overlay">
+            <h4>포인트 적립 이벤트</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 푸터 -->
+    <footer>
+      <div class="logo" style="font-size: 32px; margin-bottom: 20px">
+        SALARIA
+      </div>
+      <p>건강한 식사, 행복한 하루</p>
+      <p style="margin-top: 20px">
+        상호: 샐러리아 | 대표: 홍길동 | 사업자등록번호: 123-45-67890
+      </p>
+      <p>주소: 서울특별시 강남구 테헤란로 123 | 전화: 02-1234-5678</p>
+      <p style="margin-top: 20px">&copy; 2025 SALARIA. All rights reserved.</p>
+    </footer>
+
+    <!-- Swiper JS -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="salad.js"></script>
+  </body>
+</html>
